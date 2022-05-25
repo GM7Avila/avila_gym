@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> AVILA GYM </title>
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="mainstyle.css">
+
+    <!--Favicon-->
+    <link rel="main shortcut icon" href="media/imagens/academia-icon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/b3c4ce885e.js" crossorigin="anonymous"></script>
+
+    
+</head>
+
+
+<body>
+
+    <div id="site-content">
+        <header>
+            <menu>
+                <div class="logo">
+                    <img src="media/imagens/academia-icon.ico" alt="Ícone">
+                    <h1 class="logo-menu"> <a href="index.html">Avila Gym</a> </h1>
+                </div>
+                <nav class="header-menu">
+                    <ul>
+                        <li> <a href="home.html"> Home </a> </li>
+                        <li> <a href="servicos.html"> Serviços </a> </li>
+                        <li> <a href="news.html"> News </a> </li>
+                        <li> <a href="lojafit.html"> LojaFit </a> </li>
+                        <li> <a href="contato.html" class="cliente_select"> Cliente </a> </li>
+                    </ul>
+                </nav>
+            </menu>
+        </header>
+    </div>
+
+    <main id="newMain">
+
+        <div id = "contatoContainer">
+
+            <div class="login">
+
+                <div class="logoimg"></div>
+
+                <div class="box-login">
+                    <h2>Login</h2>
+
+                    <input class="loginput" type="text" placeholder ="Nome">
+                    <input class="loginput" type="password" placeholder ="Senha">
+                    <button>Entrar</button>
+                    <a>Esqueceu a senha?</a>
+                    <a>Não é nosso aluno?Registra-se.</a>
+
+                </div>
+
+            </div>
+
+
+            <div class="formulario">
+                
+                <h2>contato</h2>
+                
+                <form
+                    class="form" 
+                    method='post' 
+                    name='contato'
+                    data-netlify="true"
+                >
+                <!--misturei o meu com o seu basicamente kkkkkkk-->
+                <!--eu acho q era aquele metodo q tava q enviava pra email e n pro netlify-->
+
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required>
+                <label for="phone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" pattern="\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}" placeholder="(XX)9XXXX-XXXX" required>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required>
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message" required></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://yourdomain.co/thanks.html"
+                />
+                <button type="submit">Enviar</button>
+              </form>
+            </div>
+
+
+            <div class="sac">
+
+                <p>SAC - Serviço de Atendimento ao Cliente: (24) 3349-09754</p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+        <hr>
+        <br>
+        
+        <section id = "footer-container">
+                <div class="coluna-footer">
+                    <h2>Institucional</h2>
+                    <ul>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Conceito</a></li>
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="#">Portal de Privacidade</a></li>
+                    </ul>
+                </div>
+            
+                <div class="coluna-footer">
+                    <h2>Corporativo</h2>
+                    <ul>
+                        <li><a href="#">Trabalhe Conosco</a></li>
+                        <li><a href="#">Quero ser um franqueado</a></li>
+                        <li><a href="#">Divulge sua marca</a></li>
+                    </ul>
+                </div>
+
+                <div class="coluna-footer">
+                    <h2>Redes Sociais</h2>
+                    <ul>
+                        <li><a href="#"> <i class="fa-brands fa-facebook-square"></i> Facebook </a></li>
+                        <li><a href="#"> <i class="fa-brands fa-instagram"></i> Instagram </a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i> Twitter </a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i> YouTube </a></li>
+                    </ul>
+                </div>
+
+                <div class="coluna-footer">
+                    <h2>Contato</h2>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-headset"></i> (21) 98765-43210</a></li>
+                        <li><a href="#"> <i class="fa-brands fa-whatsapp"></i> (24) 98144-3944</a></li>
+                        <li><a href="#"><i class="fa-solid fa-envelope"></i> avilafit@gmail.com</a></li>
+
+                    </ul>
+                </div>
+        </section>
+        <section id="dev-container">
+
+           <div><img src="media/imagens/avila.jpeg" alt="Dev"></img></div>
+            
+          
+            <div>
+                <p>Guilherme Medeiros Avila</p>
+                <a href="dev.html">Sobre o Desenvolvedor </a></img>
+            </div>
+
+            
+                <div class="dev-social">
+                    <p>Contact me</p>
+                    <a href="https://twitter.com/gavila_dev" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/GM7Avila" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/avila_developer/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/guilherme-medeiros-avila-331776180/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:guilherme.medeiros.avila@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+
+
+
+        </section>
+
+        <section id="end">
+            Criado em HTML5 e CSS3. Guilherme Medeiros Avila, março de 2022, Rio de Janeiro.
+        </section>
+
+
+    </footer>
+
+
+</body>
+</html>

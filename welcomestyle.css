@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* Zerando CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fundo da tela */
+html {
+    width: 100vw; /* utilizar toda a width da tela */
+    height: 100vh; /* utilizar toda o heigth da tela */
+    font-size: 62.5%;
+    color: rgb(236, 214, 214);
+    font-family: 'Lato', sans-serif;
+}
+
+
+body {
+  
+  background: linear-gradient(rgba(17, 17, 17, 0.479), rgba(20, 20, 20, 0.938)), url(media/imagens/academiabanner.jpg); /*efeito para tornar fosco*/
+  background-position: center; /*centralizada*/
+  background-size: cover; /*fundo*/
+  background-position-y: 0px; 
+  background-repeat: no-repeat;
+
+}
+
+
+/* Menu - Header - Nav */
+
+header{
+  width: 100%;
+  height: 5vh;
+  background: rgba(0, 0, 0, 0.849);
+  
+
+}
+
+
+
+menu{
+  height: 100%; /*100% do header*/
+  
+  text-transform: uppercase;
+
+  display: flex;
+  justify-content: space-around; /*distanciamento entre a borda e meio*/
+  align-items: center;
+  font-size: 18px;
+  
+}
+
+.logo{
+  display: flex;
+}
+
+.logo img {
+  width:30px;
+}
+
+.logo-menu{
+  font-size: 18px;
+  letter-spacing: 0.4rem;
+  cursor: pointer;
+
+}
+
+a:hover{
+ COLOR: #ffc547
+
+}
+
+.logo-menu a {
+  text-decoration: none; /*sem o sublinhado*/
+  font-size: 25px;
+  color: rgb(241, 90, 35);
+  padding: 25px;
+
+}
+
+menu ul{
+
+  display: flex; /*um ao lado do outro*/
+  list-style: none; /* sem a bolinha */
+  
+}
+
+menu ul a{
+
+  text-decoration: none; /*sem o sublinhado*/
+  color: rgba(255, 255, 255, 0.904);
+  padding: 25px;
+
+}
+
+/* Centro - Conteudo Princiapl */
+
+.main-content {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Textos conteudo principal */
+
+.primary-text {
+  width: 850px;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #FF7300;
+  text-shadow: 6px 7px 12px #000;
+
+}
+
+.second-text{
+  margin-bottom: 7rem;
+  font-size: 2rem;
+  color: rgba(255, 254, 254, 0.849);
+  text-transform: uppercase;
+
+}
+
+/* botões */
+
+.btns {
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.btns button{
+
+  width: 250px;
+  height: 60px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 40px;
+  color: white;
+  text-transform: uppercase;
+  background: transparent;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
