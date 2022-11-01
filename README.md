@@ -1,3 +1,3 @@
 # avila_gym
-Projeto de Web Site de academia (fictício), realizado a fins de prática e estudo de HTML, CSS e JavaScript.
-Acesse esse projeto em: https://gm7avila.github.io/avila_gym/
+This is a Web Dev project, using HTML5, CSS3, and JavaScript. The academy website in question was made for the purpose of study and practice, all information contained is fictitious.
+
